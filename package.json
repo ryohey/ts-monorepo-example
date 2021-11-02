@@ -1,0 +1,23 @@
+{
+  "name": "ts-monorepo-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryohey/ts-monorepo-example.git"
+  },
+  "author": "ryohey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryohey/ts-monorepo-example/issues"
+  },
+  "homepage": "https://github.com/ryohey/ts-monorepo-example#readme",
+  "workspaces": [
+    "packages/app",
+    "packages/lib"
+  ]
+}
